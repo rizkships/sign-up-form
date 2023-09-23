@@ -2,3 +2,52 @@
     font-family: Norse;
     src: url(fonts/Norse-Bold.otf);
 }
+
+body {
+    margin: 0;
+    
+}
+
+.left-container img{
+    max-width: 33vw;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.overlay img{
+    max-width: 33vw;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+.overlay{
+    font-family: "Norse-Bold";
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    
+    width: 33%;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    padding-left: 0px;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    
+
+    
+}
+.left-container .overlay{
+position: absolute;
+
+top: 180px;
+
+}
+
+.main-container {
+    display: flex;
+}
