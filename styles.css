@@ -23,6 +23,8 @@ body {
     background-size: cover;
     color: white;
     font-family: "Norse-Bold";
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -40,6 +42,8 @@ body {
     align-items: flex-end;
     margin-left: 5%;
     margin-bottom: 5%;
+
+    font-family: sans-serif;
 }
 
 .second {
@@ -55,6 +59,8 @@ body {
     margin-left: 50px;
     width: 60%;
     justify-content: space-between;
+
+    margin-top: 10px;
 }
 
 .form-div {
@@ -82,6 +88,7 @@ input:invalid {
 label {
     font-size: 10px;
     color: #3b3b3c;
+    font-family: sans-serif;
 }
 
 #error {
@@ -112,24 +119,28 @@ label {
 .hyperlink {
     margin-left: 50px;
     margin-top: 25px;
+    font-family: sans-serif;
 }
 
 .login {
     color: #596d48;
     text-decoration: none;
     font-weight: bold;
+    margin-left: 5px;
 }
 
 .a-footer {
     color: white;
+    font-family: sans-serif;
 }
 
 .p-footer {
     font-size: 12px;
+    font-family: sans-serif;
 }
 
 .overlay {
-    height: 34vh;
+    height: 32vh;
     display: flex;
     align-items: flex-end;
 }
@@ -150,11 +161,19 @@ label {
     align-items: center;
     background: rgba(0,0,0,0.6);
     font-family: "Norse-Bold";
+    height: 120px;
 }
 
 span {
-    font-size: 30px;
+    font-size: 70px;
     font-family: "Norse-Bold";
+    
+}
+
+legend {
+    font-family: sans-serif;
+   
+    
 }
 /*
 .main-container {
